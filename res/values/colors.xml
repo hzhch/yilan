@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TitleBar 标题栏 主题色 -->
+    <color name="main_color_white">#ffffff</color>
+    <color name="main_color_blue">#0064c8</color>
+    
+    <!-- listView 分割线 -->
+    <color name="form_border_color">#ffffff</color>
+    
+     <!-- 首页新闻列表标题色 -->
+    <color name="homepage_newslist_title_color_black">#000000</color>
+    <color name="homepage_newslist_title_color_gray">#b2b2b2</color>
+    
+    <!-- 非头条新闻带图标题色 -->
+    <color name="news_title_color_white">#ffffff</color>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- 以下内容暂不删除：只作为借鉴命名方式之用 -->
+    
+    <color name="main_color">#0050f0</color>
+    <color name="main_color_light">#3366ff</color>
+    <color name="main_color_xlight">#6699ff</color>
+    <!-- 文字颜色（默认） -->
+    <color name="text_color_default">#333333</color>
+    <!-- 表单中的控件的背景颜色 -->
+    <color name="form_widget_background">#ffffff</color>
+    <!-- 表单的线条颜色 -->
+    
+</resources>

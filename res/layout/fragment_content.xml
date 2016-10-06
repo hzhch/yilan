@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ListActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/tvTitle"
+                    android:layout_alignTop="@+id/tvTitle"
+                    android:layout_weight="1"
+                    android:background="#666666" />
+
+                <TextView
+                    android:id="@+id/tvTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@+id/textView1"
+                    android:maxLines="4"
+                    android:text="这是一条非常重要的消息这是一条非常重要的消息这是一条非常重要的消息这是一条非常重要的消息这是一条非常重要的消息这是一条非常重要的消息这是一条非常重要的消息这是一条非常重要的消息"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tvOrigin"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="腾讯科技"
+                    android:textColor="#666666" />
+
+                <TextView
+                    android:id="@+id/tvDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text=""
+                    android:textColor="#666666" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ivPic"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="40dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/default_bg" />
+
+            <TextView
+                android:id="@+id/tvText"
+                android:paddingTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="正文：医改是一道世界性难题。而检验医改是否有效的方法就是看民众是不是有更多的获得感。十八大以来，我国积极推进医疗改革。如今，我国基本医保覆盖95%以上人口，在较短时间内建立起了世界上规模最大的基本医疗保障网；大病保险和医疗救助制度进一步完善；逐步破除公立医院以药养医机制；2016年，在200个公立医院综合改革试点城市开展家庭医生签约服务。世界卫生组织称赞“中国的医改成就举世瞩目”。" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

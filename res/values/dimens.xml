@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <!-- 标题栏 -->
+    <dimen name="title_bar_height">48dp</dimen>
+    <dimen name="title_bar_text_size">16sp</dimen>
+    <dimen name="title_bar_circle_size">1dp</dimen>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   <!-- 以下内容暂不删除：只作为借鉴命名方式之用 -->
+    
+    <!-- 外边距 -->
+    <dimen name="margin_tiny">6dp</dimen>
+    <dimen name="margin_small">10dp</dimen>
+    <dimen name="margin_normal">12dp</dimen>
+    <dimen name="margin_big">16dp</dimen>
+    <dimen name="margin_large">20dp</dimen>
+    
+    <!-- 文字大小 -->
+    <dimen name="text_size_default">14sp</dimen>
+    
+    <!-- 表单 -->
+    <dimen name="form_border_width">0.5dp</dimen>
+    <dimen name="form_row_title_width">80dp</dimen>
+    <dimen name="form_widget_padding">8dp</dimen>
+    <dimen name="form_widget_height">32dp</dimen>
+    
+    <!-- 表单按钮 -->
+    <dimen name="submit_button_height">32dp</dimen>
+    <dimen name="submit_button_corners_radius">16dp</dimen>
+    <dimen name="submit_button_margin_horizontal">32dp</dimen>
+    <dimen name="submit_button_margin_top">16dp</dimen>
+    
+</resources>

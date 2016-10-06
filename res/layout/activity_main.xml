@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListActivity" >
+
+
+    <RelativeLayout
+        android:id="@+id/relativeTitleBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_height"
+        android:background="@color/main_color_blue" >
+
+        <ImageView
+            android:id="@+id/ivTitleBarName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/LLSmallCircle"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/yilan" />
+
+        <LinearLayout
+            android:id="@+id/LLSmallCircle"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="bottom"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/ivCircleDot0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/title_circle_ffffff_bai0" />
+
+            <ImageView
+                android:id="@+id/ivCircleDot1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/title_circle_ffffff_bai0" />
+
+            <ImageView
+                android:id="@+id/ivCircleDot2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/title_circle_ffffff_bai0" />
+
+            <ImageView
+                android:id="@+id/ivCircleDot3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/title_circle_ffffff_bai0" />
+
+            <ImageView
+                android:id="@+id/ivCircleDot4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/title_circle_ffffff_bai0" />
+
+            <ImageView
+                android:id="@+id/ivCircleDot5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/title_circle_ffffff_bai0" />
+
+            <ImageView
+                android:id="@+id/ivCircleDot6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/title_circle_ffffff_bai0" />
+
+            <ImageView
+                android:id="@+id/ivCircleDot7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/title_circle_ffffff_bai0" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    
+            
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relativeTitleBar"
+         />
+    
+    
+
+
+</RelativeLayout>

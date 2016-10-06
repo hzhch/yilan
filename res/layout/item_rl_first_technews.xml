@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rlFirstNews"
+     >
+
+        <ImageView
+            android:id="@+id/ivFirstImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/sample_image_list_homepage" />
+        
+           <TextView
+            android:id="@+id/tvFirstTitle"
+            android:layout_below="@+id/ivFirstImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="18dp"
+            android:maxLines="4"
+            android:ellipsize="end"
+            android:text="头条头条头条头条头条头条头条头条头条头条头条头条头条头条头条头条头条头条头条头条头条头条头条头条"
+            android:textColor="@color/homepage_newslist_title_color_black"
+            android:textSize="26sp" />
+           
+           <TextView
+            android:id="@+id/tvUpdateTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvFirstTitle"
+            android:layout_alignLeft="@+id/tvFirstTitle"
+            android:layout_marginBottom="18dp"
+            android:padding="0dp"
+            android:text="5分钟前"
+            android:textColor="@color/homepage_newslist_title_color_gray"
+            android:textSize="9sp" />
+
+        <ImageView
+            android:id="@+id/ivGrayLine1"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tvUpdateTime"
+            android:scaleType="fitXY"
+            android:src="@drawable/line_gray" />
+
+
+</RelativeLayout>
